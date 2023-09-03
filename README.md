@@ -20,11 +20,7 @@ Coming soon is hugo theme which can be used before publishing your actual site t
 
 ## Screenshot
 
-<<<<<<< HEAD
 ![Screenshot of the demo site](https://mansoorbarri.com/img/downloads/comingsoonhugo/main.png)
-=======
-![Screenshot of the demo site](/sitescreenshot.png)
->>>>>>> b215b7e0bb2c220b1ba8934a9414500fafde8442
 
 ## Installation
 
