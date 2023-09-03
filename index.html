@@ -1,0 +1,29 @@
+{{ define "main" }}
+    <div class="bgimg">
+        <video autoplay muted loop poster="poster.jpg">
+            {{ if .Site.Params.background }}
+                <source src="{{ .Site.Params.background }}" type="video/mp4">
+            {{ else }}
+                <source src="bg.mp4" type="video/mp4">
+            {{ end }}
+        </video>
+        <div class="topleft">
+            <p>{{ .Site.Params.title }}</p>
+        </div>
+        <div class="middle">
+            {{ if .Site.Params.message }}
+                <h1>{{ .Site.Params.message }}</h1>
+            {{ else }}
+                <h1>COMING SOON</h1>
+            {{ end }}
+            <hr>
+            <p id="demo" style="font-size:30px"></p>
+            <div id="countdown" data-release="{{ .Site.Params.release }}"></div>
+        </div>
+        <div class="bottomleft">
+            <p>
+            {{ .Site.Params.description}}</p>
+        </div>
+    </div>
+        <script src="{{ "/js/script.js" | relURL }}"></script>
+{{ end }}
