@@ -1,0 +1,73 @@
+body{
+  overflow: hidden;
+  }
+  * {
+  margin: 0;
+  padding: 0;
+  }
+
+  .bgimg {
+  /* Full-screen */
+  height: 100vh; /* Use viewport height for full-screen height */
+  /* Center the background image */
+  background-position: center;
+  /* Scale and zoom in the image */
+  background-size: cover;
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+  position: relative;
+  /* Add a white text color to all elements inside the .bgimg container */
+  color: white;
+  /* Add a font */
+  font-family: "Courier New", Courier, monospace;
+  /* Set the font-size to 25 pixels */
+  font-size: 25px;
+  }
+
+  .bgimg video {
+  width: 100%;
+  height: 100%; /* Make the video fill the entire .bgimg container */
+  object-fit: cover; /* Make the video cover the container without stretching */
+  display: block; /* Remove any extra spacing */
+  position: absolute; /* Position the video absolutely within the .bgimg container */
+  }
+
+  
+  /* Position text in the top-left corner */
+  .topleft {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  }
+
+  /* Position text in the bottom-left corner */
+  .bottomleft {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  }
+
+  /* Position text in the middle */
+  .middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  #demo{
+    font-size:30px;
+  }
+  @media screen AND (max-width:600px) {
+    .middle h1{
+      font-size: 30px;
+    }
+    #demo{
+      font-size: 20px;
+    }
+  }
+
+  /* Style the <hr> element */
+  hr {
+  margin: auto;
+  width: 40%;
+  }
