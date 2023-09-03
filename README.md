@@ -20,7 +20,7 @@ Coming soon is hugo theme which can be used before publishing your actual site t
 
 ## Screenshot
 
-![Screenshot of the demo site](/home/anar/Downloads/coming-soon/sitescreenshot.png)
+![Screenshot of the demo site](/sitescreenshot.png)
 
 ## Installation
 
