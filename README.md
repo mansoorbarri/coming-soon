@@ -11,11 +11,8 @@ Coming soon is hugo theme which can be used before publishing your actual site t
 ## Features
 
 - Minimal 
-
 - Customisable 
-
 - Responsive
-
 - SEO Ready 
 
 ## Screenshot
