@@ -1,0 +1,10 @@
+baseURL = "https://"
+languageCode = 'en-us'
+theme = "coming-soon"
+
+[params]
+    title = "Coming Soon Hugo" 
+    description = "A simple countdown"
+    message = "COMING SOON!" # default is "COMING SOON" 
+    release = "Oct 07, 2222" # release date format: Aug 30, 2023 15:00
+    background = "" # default is bg.mp4 in static/
