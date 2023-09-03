@@ -20,7 +20,7 @@ Coming soon is hugo theme which can be used before publishing your actual site t
 
 ## Screenshot
 
-![Screenshot of the demo site](/home/anar/Downloads/coming-soon/sitescreenshot.png)
+![Screenshot of the demo site](https://mansoorbarri.com/img/downloads/comingsoonhugo/main.png)
 
 ## Installation
 
@@ -34,7 +34,7 @@ git submodule add https://github.com/mansoorbarri/coming-soon.git themes/coming-
 
 Google PageSpeed Insights
 
-![Screenshot of the result]()
+![Screenshot of the result](https://mansoorbarri.com/img/downloads/comingsoonhugo/performance.png)
 
 ## Licence
 
