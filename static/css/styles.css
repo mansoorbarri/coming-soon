@@ -54,6 +54,17 @@ body{
   transform: translate(-50%, -50%);
   text-align: center;
   }
+  #demo{
+    font-size:30px;
+  }
+  @media screen AND (max-width:600px) {
+    .middle h1{
+      font-size: 30px;
+    }
+    #demo{
+      font-size: 20px;
+    }
+  }
 
   /* Style the <hr> element */
   hr {
