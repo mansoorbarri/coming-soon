@@ -35,4 +35,4 @@ Google PageSpeed Insights
 
 ## Licence
 
-This code is licensed under [GNU GPLv3](https://github.com/mansoorbarri/coming-soon/)
+This code is licensed under [GNU GPLv3](https://github.com/mansoorbarri/coming-soon/blob/main/LICENCE)
