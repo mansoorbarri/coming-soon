@@ -5,7 +5,7 @@ license = "GNU GPLv3"
 licenselink = "https://github.com/mansoorbarri/coming-soon/blob/main/LICENCE"
 
 homepage = "https://github.com/mansoorbarri/coming-soon"
-demosite = "https://gokarna-hugo.netlify.app"
+demosite = "https://comingsoonhugo.pages.dev/"
 
 tags = ["minimal", "dark", "personal", "countdown"]
 
