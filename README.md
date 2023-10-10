@@ -21,7 +21,7 @@ Coming soon is hugo theme which can be used before publishing your actual site t
 
 ## Installation
 
-Detailed steps: [wiki page](https://mansoorbarri.com/downloads/comingsoonhugo)
+Detailed steps: [wiki page](https://mansoorbarri.com/downloads/coming-soon-hugo/)
 
 ```git
 git submodule add https://github.com/mansoorbarri/coming-soon.git themes/coming-soon
