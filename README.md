@@ -17,7 +17,7 @@ Coming soon is hugo theme which can be used before publishing your actual site t
 
 ## Screenshot
 
-![Screenshot of the demo site](/images/screenshot.png)
+![Screenshot of the demo site](https://raw.githubusercontent.com/mansoorbarri/coming-soon/main/images/screenshot.png)
 
 ## Installation
 
