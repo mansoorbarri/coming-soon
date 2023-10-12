@@ -31,7 +31,7 @@ git submodule add https://github.com/mansoorbarri/coming-soon.git themes/coming-
 
 Google PageSpeed Insights
 
-![Screenshot of the result](/images/pagespeed.png)
+![Screenshot of the result](https://raw.githubusercontent.com/mansoorbarri/coming-soon/main/images/pagespeed.png)
 
 ## Licence
 
