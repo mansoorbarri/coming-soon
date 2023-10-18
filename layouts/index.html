@@ -9,7 +9,11 @@
             {{ end }}
         </video>
         <div class="topleft">
-            <p>{{ .Site.Params.title }}</p>
+            {{ if .Site.Params.title }}
+                <p>{{ .Site.Params.title }}</p>
+            {{ else }}
+                <p>Coming Soon HUGO</p>
+            {{ end }}
         </div>
         <div class="middle">
             {{ if .Site.Params.message }}
