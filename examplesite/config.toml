@@ -1,4 +1,4 @@
-baseURL = "https://"
+baseURL = ""
 languageCode = 'en-us'
 theme = "coming-soon"
 
@@ -8,3 +8,12 @@ theme = "coming-soon"
     message = "COMING SOON!" # default is "COMING SOON" 
     release = "Oct 07, 2222" # release date format: Aug 30, 2023 15:00
     background = "" # default is bg.mp4 in static/
+
+socialIcons = [
+    {name = "email", url = "example@example.com"},      
+    {name = "twitter", url = "https://twitter.com/"},    
+    {name = "facebook", url = "https://facebook.com/"},    
+    {name = "github", url = "https://github.com/"},    
+    {name = "instagram", url = "https://instagram.com/"},    
+    {name = "tiktok", url = "https://tiktok.com/"},    
+] 
