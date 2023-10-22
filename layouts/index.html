@@ -30,5 +30,22 @@
             {{ .Site.Params.description}}</p>
         </div>
     </div>
+    <div class="left">
+        {{ if isset .Site.Params "socialicons" }}
+        <section class="social-icons">
+            <ul class="social-icons-list">
+                {{ range .Site.Params.SocialIcons }}
+                <li class="social-icon">
+                    {{ $iconName := .name }}
+                    <a href="{{ if eq $iconName "email" }}mailto:{{ .url }} {{ else }}{{ .url }}{{ end }}"
+                       {{ if .rel }}rel="{{ .rel }}"{{ end }}>
+                        <img src="{{ $.Site.BaseURL }}/svg/icons/{{ .name }}.svg" alt="test" />
+                    </a>
+                </li>
+                {{ end }}
+            </ul>
+        </section>
+        {{ end }}
+    </div>
         <script src="{{ "/js/script.js" | relURL }}"></script>
 {{ end }}
