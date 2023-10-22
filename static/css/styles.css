@@ -1,6 +1,3 @@
-body{
-overflow: hidden;
-}
 * {
 margin: 0;
 padding: 0;
@@ -70,4 +67,34 @@ text-align: center;
 hr {
 margin: auto;
 width: 40%;
+}
+
+/* left side */
+.left{
+  right: 0;
+  bottom: 10px;
+  position: absolute;
+}
+.social-icons {
+  text-align: center;
+  filter: brightness(0) invert(1);
+}
+
+.social-icons .social-icons-list {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.social-icons-list .social-icon {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 24px;
+  margin: 0 6px;
+  width: 24px;
+}
+
+.social-icon a svg path {
+  transition: fill 0.15s ease;
 }
