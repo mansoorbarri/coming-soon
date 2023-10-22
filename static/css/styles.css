@@ -53,6 +53,7 @@ text-align: center;
 }
 #demo{
   font-size:30px;
+  padding: 10px;
 }
 @media screen AND (max-width:600px) {
   .middle h1{
