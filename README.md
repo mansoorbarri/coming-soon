@@ -6,7 +6,7 @@ Coming soon is hugo theme which can be used before publishing your actual site t
 
 [Mansoor Barri](https://mansoorbarri.com)
 
-### demo: https://comingsoonhugo.pages.dev
+### demo: https://cshugo.mansoorbarri.com
 
 ## Features
 

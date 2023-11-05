@@ -5,7 +5,7 @@ license = "GNU GPLv3"
 licenselink = "https://github.com/mansoorbarri/coming-soon/blob/main/LICENCE"
 
 homepage = "https://github.com/mansoorbarri/coming-soon"
-demosite = "https://comingsoonhugo.pages.dev/"
+demosite = "https://cshugo.mansoorbarri.com/"
 
 tags = ["minimal", "dark", "personal", "countdown"]
 
