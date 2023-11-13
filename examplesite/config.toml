@@ -5,9 +5,10 @@ theme = "coming-soon"
 [params]
     title = "Coming Soon Hugo" 
     description = "A simple countdown"
-    message = "COMING SOON!" # default is "COMING SOON" 
-    release = "Jan 30, 2024" # release date format: Aug 30, 2023 15:00
-    background = "" # default is bg.mp4 in static/
+    favicon = ""
+    message = "COMING SOON!" 
+    release = "Jan 30, 2024" 
+    background = "" 
 
 socialIcons = [
     {name = "email", url = "example@example.com"},      
