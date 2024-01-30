@@ -1,13 +1,13 @@
 baseURL = "https://cshugo.mansoorbarri.com"
 languageCode = 'en-us'
-theme = "coming-soon"
+theme = "../"
 
 [params]
     title = "Coming Soon Hugo" 
     description = "A simple countdown"
     favicon = ""
     message = "COMING SOON!" 
-    release = "Jan 30, 2024" 
+    release = "June 30, 2024" 
     background = "" 
 
 socialIcons = [
