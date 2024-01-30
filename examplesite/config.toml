@@ -1,6 +1,6 @@
 baseURL = "https://cshugo.mansoorbarri.com"
 languageCode = 'en-us'
-theme = "../"
+theme = "coming-soon"
 
 [params]
     title = "Coming Soon Hugo" 

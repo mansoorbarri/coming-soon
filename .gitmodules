@@ -1,3 +1,6 @@
 [submodule "coming-soon"]
 	path = coming-soon
 	url = git@github.com:mansoorbarri/coming-soon.git
+[submodule "examplesite/themes/coming-soon"]
+	path = examplesite/themes/coming-soon
+	url = git@github.com:mansoorbarri/coming-soon.git
