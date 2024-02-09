@@ -70,12 +70,7 @@ margin: auto;
 width: 40%;
 }
 
-/* left side */
-.left{
-  right: 0;
-  bottom: 10px;
-  position: absolute;
-}
+/* right side */ 
 .social-icons {
   text-align: center;
   filter: brightness(0) invert(1);
@@ -98,4 +93,22 @@ width: 40%;
 
 .social-icon a svg path {
   transition: fill 0.15s ease;
+}
+
+.topright {
+  position: absolute;
+  top: 16px;
+  right: 15px;
+}
+
+.topright a{ 
+  text-decoration: none;
+  color: #0e0e10;
+}
+
+/* left side */
+.left{
+  right: 0;
+  bottom: 10px;
+  position: absolute;
 }

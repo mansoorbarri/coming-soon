@@ -8,6 +8,11 @@
                 <source src="bg.mp4" type="video/mp4">
             {{ end }}
         </video>
+        {{ if .Site.Params.twitter.enable }}
+            <div class="topright"> 
+                {{ partial "twitter-feed.html" . }}
+            </div>        
+        {{ end }}
         <div class="topleft">
             {{ if .Site.Params.title }}
                 <p>{{ .Site.Params.title }}</p>
