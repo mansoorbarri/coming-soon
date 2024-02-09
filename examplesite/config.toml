@@ -18,3 +18,7 @@ socialIcons = [
     {name = "instagram", url = "https://instagram.com/"},    
     {name = "tiktok", url = "https://tiktok.com/"},    
 ] 
+
+[params.twitter]
+	enable = true 
+	username = "mansoorbarri"
