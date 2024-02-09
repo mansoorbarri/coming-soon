@@ -1,0 +1,3 @@
+[submodule "examplesite/themes/coming-soon"]
+	path = examplesite/themes/coming-soon
+	url = https://github.com/mansoorbarri/coming-soon
