@@ -2,8 +2,8 @@
     uses: cloudflare/pages-action@v1
     with:
       apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-      accountId: YOUR_ACCOUNT_ID
-      projectName: YOUR_PROJECT_NAME
-      directory: YOUR_BUILD_OUTPUT_DIRECTORY
+      accountId: 26202fb3dd1d9659b62c758ed55b7627
+      projectName: coming-soon
+      directory: public
       # Enable Wrangler v3
       wranglerVersion: '3'
