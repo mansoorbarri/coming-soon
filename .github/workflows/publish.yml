@@ -1,0 +1,9 @@
+  - name: Publish to Cloudflare Pages
+    uses: cloudflare/pages-action@v1
+    with:
+      apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      accountId: YOUR_ACCOUNT_ID
+      projectName: YOUR_PROJECT_NAME
+      directory: YOUR_BUILD_OUTPUT_DIRECTORY
+      # Enable Wrangler v3
+      wranglerVersion: '3'
