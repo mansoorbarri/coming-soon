@@ -20,5 +20,5 @@ socialIcons = [
 ] 
 
 [params.twitter]
-	enable = true 
+	enable = false 
 	username = "mansoorbarri"
