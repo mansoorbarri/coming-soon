@@ -30,7 +30,7 @@ var x = setInterval(function() {
   }
 }, 1000);
 
-  // Add a Vanta.js background effect
+  /* Add a Vanta.js background effect
   VANTA.BIRDS({
     el: "#background",
     mouseControls: true,
@@ -40,4 +40,4 @@ var x = setInterval(function() {
     minWidth: 200.00,
     scale: 1.00,
     scaleMobile: 1.00
-  });
+  }); */
