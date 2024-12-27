@@ -7,7 +7,7 @@ theme = "coming-soon"
     description = "A simple countdown"
     favicon = ""
     message = "COMING SOON!" 
-    release = "June 30, 2024" 
+    release = "January 1, 2026"
     background = "" 
 
 socialIcons = [
